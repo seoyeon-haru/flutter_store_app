@@ -19,19 +19,21 @@ class StorePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          // Text
-          // Image
-        Row(
+      body: SafeArea(
+        child: Column(
           children: [
-            Text('Woman'),
-            Text('Kids'),
-            Text('Shoes'),
-            Text('Bag'),
+            // Text
+            // Image
+          Row(
+            children: [
+              Text('Woman'),
+              Text('Kids'),
+              Text('Shoes'),
+              Text('Bag'),
+            ],
+          )
           ],
-        )
-        ],
+        ),
       ),
     );
   }
