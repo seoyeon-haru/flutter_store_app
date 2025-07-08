@@ -18,7 +18,19 @@ class MyApp extends StatelessWidget {
 class StorePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+          // Text
+          // Image
+        Row(
+          children: [
+            // Text
+            // Image
+          ],
+        )
+        ],
+      ),
+    );
   }
-  
 }
