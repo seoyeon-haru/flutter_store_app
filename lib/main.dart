@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class StorePage extends StatelessWidget{
+class StorePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,22 +24,38 @@ class StorePage extends StatelessWidget{
           children: [
             // Text
             // Image
-          Row(
-            children: [
-              Text('Woman', style: TextStyle(
-                fontWeight: FontWeight.bold,
-              )),
-              Text('Kids', style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),),
-              Text('Shoes', style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),),
-              Text('Bag', style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),),
-            ],
-          )
+            Row(
+              children: [
+                Text(
+                  'Woman',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Spacer(),
+                Text(
+                  'Kids',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Spacer(),
+                Text(
+                  'Shoes',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Spacer(),
+                Text(
+                  'Bag',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Spacer(),
+              ],
+            )
           ],
         ),
       ),
