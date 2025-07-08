@@ -53,7 +53,6 @@ class StorePage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Spacer(),
               ],
             )
           ],
