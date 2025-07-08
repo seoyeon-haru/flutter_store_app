@@ -25,8 +25,10 @@ class StorePage extends StatelessWidget{
           // Image
         Row(
           children: [
-            // Text
-            // Image
+            Text('Woman'),
+            Text('Kids'),
+            Text('Shoes'),
+            Text('Bag'),
           ],
         )
         ],
